@@ -1,0 +1,46 @@
+﻿body{
+    text-align:left;
+}
+
+.td {
+    height: 30px;
+    width: 30px;
+}
+.td:hover{
+    background-color: rgba(206, 65, 65, 0.418)
+}
+div{
+    
+    margin: 30px;
+}
+.tdClicked {
+    text-align: center;
+    background-color: rgb(236, 206, 167)
+}
+
+.table {
+}
+div{
+    font-size:x-large;
+}
+
+
+.safeClick {
+    text-align: center;
+    height: 80px;
+    width: 90px;
+    background-color: rgb(180, 205, 228);
+    font-style: initial;
+    font-size: x-large;
+}
+.zeroCellOpen{
+    text-align: center;
+    background-color: rgb(249, 250, 215)
+}
+button{
+    height: 40px;
+    width: 120x;
+}
+.tdSignBomb{
+    background-color: red;
+}

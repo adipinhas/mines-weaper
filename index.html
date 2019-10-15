@@ -1,0 +1,31 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="game.css" />
+</head>
+<body>
+    
+    <h2>Choose level game</h2>
+    <button onclick="manualyMode(2)" manualyMode()>set mines</button>
+    <button style="background-color: greenyellow" onclick="initGame(1)">easy</button>
+    <button style="background-color: orange" onclick="initGame(2)">medium</button>
+    <button style="background-color: red" onclick="initGame(3)">expert</button>
+    <div onclick="restart()" ><h1>😃</h1> </div>
+    <div id="life">3 lives left</div>
+    <h1 ></h1>
+    <h3>...</h3>
+    <h4 id="h4"></h4>
+    <div onclick="safeClick()" class="safeClick"> safe click</div>
+    <h5 > <span id="clicks">3</span> clicks avilable</h5>
+    <p></p>
+    <h2 style="text-align: center" id="h2"></h2>
+
+    <script src="js/game.js"></script>
+    <script src="js/util.js"></script>
+    <script src="js/manual.js"></script>
+</body>
+</html>
